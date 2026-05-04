@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cập Nhật User - CRUD</title>
+</head>
+<body>
+    <h2>Cập Nhật User</h2>
+    <form method="POST" action="/put-crud">
+        <input type="hidden" name="id" value="<%= user.id %>">
+        <p>Email: <input type="email" name="email" value="<%= user.email %>" readonly></p>
+        <p>First Name: <input type="text" name="firstName" value="<%= user.firstName %>" required></p>
+        <p>Last Name: <input type="text" name="lastName" value="<%= user.lastName %>" required></p>
+        <p>Address: <input type="text" name="address" value="<%= user.address %>"></p>
+        <button type="submit">Cập Nhật</button>
+    </form>
+    <br>
+    <a href="/get-crud">Quay lại danh sách</a>
+</body>
+</html>
