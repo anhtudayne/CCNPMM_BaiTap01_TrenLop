@@ -6,13 +6,7 @@
 Đây là bài tập xây dựng một ứng dụng web cơ bản thực hiện các thao tác CRUD (Create, Read, Update, Delete) cho đối tượng `User`. 
 Ứng dụng được xây dựng trên nền tảng **Node.js** sử dụng framework **ExpressJS**, thao tác với cơ sở dữ liệu **MySQL** thông qua ORM **Sequelize**, và sử dụng **EJS** làm view engine.
 
-## 🛠 Cài đặt và Chạy ứng dụng
-
-### Yêu cầu hệ thống
-- Node.js (đã cài đặt môi trường Node)
-- MySQL Server (đang chạy)
-
-### Các bước cài đặt
+## Các bước cài đặt
 
 **1. Cài đặt các thư viện cần thiết**
 Mở terminal tại thư mục dự án và chạy lệnh:
@@ -38,8 +32,11 @@ npm start
 ```
 Ứng dụng sẽ chạy tại địa chỉ: `http://localhost:8088/`
 
-## 📁 Cấu trúc thư mục chính
-```text
+**5. Ảnh minh hoạ**
+![Ảnh minh hoạ](./src/screenshots/anhminhhoa.jpg)
+
+## 📁 Cấu trúc thư mục chính 
+```text 
 BAI_TAP_01/
 ├── .babelrc                    # Cấu hình Babel để dùng ES6
 ├── .env                        # Lưu trữ biến môi trường (PORT, NODE_ENV)
